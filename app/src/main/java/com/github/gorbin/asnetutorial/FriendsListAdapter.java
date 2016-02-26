@@ -91,7 +91,7 @@ public class FriendsListAdapter extends BaseAdapter {
                 break;
             case GooglePlusSocialNetwork.ID:
                 color = context.getResources().getColor(R.color.googleplus);
-                image = R.drawable.g_plus_user;
+                image = R.drawable.user;
                 break;
         }
         holder.label.setTextColor(color);

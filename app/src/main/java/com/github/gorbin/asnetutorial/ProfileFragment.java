@@ -185,7 +185,7 @@ public class ProfileFragment extends Fragment implements OnRequestSocialPersonCo
                 break;
             case GooglePlusSocialNetwork.ID:
                 color = getResources().getColor(R.color.googleplus);
-                image = R.drawable.g_plus_user;
+                image = R.drawable.user;
                 break;
             case FacebookSocialNetwork.ID:
                 color = getResources().getColor(R.color.facebook);
